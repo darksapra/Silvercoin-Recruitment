@@ -3,60 +3,63 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-public class MenuManager : MonoBehaviour
+namespace sapra.silvercoin_project
 {
-    public static MenuManager instance;
-    public Slider horiSlider;
-    public Slider verticalSlider;
-    private float horizontalSens;
-    private float verticalSens;
-    private float Time;
+    public class MenuManager : MonoBehaviour
+    {
+        public static MenuManager instance;
+        public Slider horiSlider;
+        public Slider verticalSlider;
+        private float horizontalSens;
+        private float verticalSens;
+        private float Time;
 
-    public float getTime()
-    {
-        return Time;
-    }
-    public float getHori()
-    {
-        return horizontalSens;
-    }
-    public float getVert()
-    {
-        return verticalSens;
-    }
-
-    void Start()
-    {
-        if(instance == null)
+        public float getTime()
         {
-            instance = this;
-            DontDestroyOnLoad(this.gameObject);
+            return Time;
         }
-        else
-            Destroy(this.gameObject);
+        public float getHori()
+        {
+            return horizontalSens;
+        }
+        public float getVert()
+        {
+            return verticalSens;
+        }
 
-        onHorizontalChange();
-        onVerticalChange();
-    }
-    public void OnPlay()
-    {
-        SceneManager.LoadScene("World");
-    }
-    public void OnExit()
-    {
-        Application.Quit();
-    }
-    public void onHorizontalChange()
-    {
-        horizontalSens = horiSlider.value*30;
-    }
-    public void onVerticalChange()
-    {
-        verticalSens = verticalSlider.value*30;
-    }
-    public void OnComplete(float time)
-    {
-        this.Time = time;
-        SceneManager.LoadScene("LevelComplete");
+        void Start()
+        {
+            if(instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(this.gameObject);
+            }
+            else
+                Destroy(this.gameObject);
+
+            onHorizontalChange();
+            onVerticalChange();
+        }
+        public void OnPlay()
+        {
+            SceneManager.LoadScene("World");
+        }
+        public void OnExit()
+        {
+            Application.Quit();
+        }
+        public void onHorizontalChange()
+        {
+            horizontalSens = horiSlider.value*30;
+        }
+        public void onVerticalChange()
+        {
+            verticalSens = verticalSlider.value*30;
+        }
+        public void OnComplete(float time)
+        {
+            this.Time = time;
+            SceneManager.LoadScene("LevelComplete");
+        }
     }
 }
