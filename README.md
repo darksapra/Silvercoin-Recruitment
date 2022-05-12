@@ -33,7 +33,11 @@ Free Skyboxes - Space: https://assetstore.unity.com/packages/2d/textures-materia
 
 ## Controls
 W and A to change velocity.
+
 Space to shoot fast bullets.
+
 Left Click to shoot missile.
+
 Right Click to target asteroids.
+
 Mouse to move camera/spaceship.
