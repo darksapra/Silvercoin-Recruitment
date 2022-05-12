@@ -13,8 +13,8 @@ namespace sapra.silvercoin_project
         [Tooltip("Animation Length in seconds")]
         [Range(0.1f, 3)] public float animationLength = 2;
 
-        public List<AsteroidDistance> asteroids;
-        [SerializeField] private AsteroidDistance currentTarget;
+        private List<AsteroidDistance> asteroids;
+        private AsteroidDistance currentTarget;
         private AsteroidDistance dynamicTarget;
         private ShipInput shipInput;
         private Vector2 screenRes;

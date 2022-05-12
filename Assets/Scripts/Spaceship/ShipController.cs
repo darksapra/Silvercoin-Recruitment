@@ -20,7 +20,7 @@ namespace sapra.silvercoin_project
         [SerializeField] private Vector2 maxAcceleration = new Vector2(10, 50);
         [Tooltip("Maximum distance ship from center")]
         [SerializeField] private float maxDistance = 50;
-        [SerializeField] private float verticalOffset;
+        [SerializeField] private float verticalOffset = 5;
 
         private float currentAcceleration = 30;
         private Vector3 upVector;
