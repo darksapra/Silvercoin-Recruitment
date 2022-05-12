@@ -32,8 +32,8 @@ Cinemachine
 Free Skyboxes - Space: https://assetstore.unity.com/packages/2d/textures-materials/sky/free-skyboxes-space-178953
 
 ## Controls
-W and A to change velocity
-Space to shoot fast bullets
-Left Click to shoot missile
-Right Click to target asteroids
-Mouse to move camera/spaceship
+W and A to change velocity.
+Space to shoot fast bullets.
+Left Click to shoot missile.
+Right Click to target asteroids.
+Mouse to move camera/spaceship.
