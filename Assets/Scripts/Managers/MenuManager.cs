@@ -6,11 +6,12 @@ using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
     public static MenuManager instance;
-    private float horizontalSens;
-    private float verticalSens;
     public Slider horiSlider;
     public Slider verticalSlider;
+    private float horizontalSens;
+    private float verticalSens;
     private float Time;
+
     public float getTime()
     {
         return Time;
@@ -23,6 +24,7 @@ public class MenuManager : MonoBehaviour
     {
         return verticalSens;
     }
+
     void Start()
     {
         if(instance == null)

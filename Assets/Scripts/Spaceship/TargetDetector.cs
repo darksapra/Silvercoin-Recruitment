@@ -112,7 +112,7 @@ namespace sapra.silvercoin_project
         public class AsteroidDistance
         {
             [SerializeField] private GameObject Asteroid;
-            public float distance;//{get; set;}
+            public float distance{get; set;}
             public AsteroidDistance(GameObject asteroid, float distance)
             {
                 this.Asteroid = asteroid;

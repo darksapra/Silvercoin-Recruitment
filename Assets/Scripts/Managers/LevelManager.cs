@@ -6,6 +6,7 @@ namespace sapra.silvercoin_project
 {
     public class LevelManager : MonoBehaviour
     {
+        [Header("Components")]
         public TextMeshProUGUI rocksText;
         public TextMeshProUGUI timeText;
         public List<Health> importantRocks;
@@ -16,10 +17,8 @@ namespace sapra.silvercoin_project
         {
             remainingRocks = importantRocks.Count;
             rocksText.SetText(importantRocks.Count + "/" + remainingRocks);
-            foreach(Health ROCK in importantRocks)
-            {
-                ROCK.onDestroy += UpdateDestroyed;
-            }
+            foreach(Health ROCK in importantRocks)            
+                ROCK.onDestroy += UpdateDestroyed;            
         }
         void Update()
         {
