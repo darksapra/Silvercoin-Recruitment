@@ -65,7 +65,7 @@ namespace sapra.silvercoin_project
         }
         private void RotateModel(float speedFactor)
         {
-            upVector = Vector3.Slerp(upVector,-_input.getMouseInputWorld, Time.deltaTime*(3f-speedFactor));
+            upVector = Vector3.Slerp(upVector,-_input.getMouseInputWorld, Time.deltaTime*(2f-speedFactor));
             upVector = Vector3.ProjectOnPlane(upVector, transform.forward);
 
             Vector3 offset = upVector*maxDistance+upVector.normalized*verticalOffset;

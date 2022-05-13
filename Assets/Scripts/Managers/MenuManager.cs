@@ -40,6 +40,7 @@ namespace sapra.silvercoin_project
             onHorizontalChange();
             onVerticalChange();
         }
+        
         public void OnPlay()
         {
             SceneManager.LoadScene("World");

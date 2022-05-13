@@ -25,14 +25,15 @@ namespace sapra.silvercoin_project
             currentTime += Time.deltaTime;
             timeText.SetText((Mathf.Floor(currentTime*100)/100).ToString());
         }
-        void UpdateDestroyed()
+        
+        private void UpdateDestroyed()
         {
             remainingRocks -= 1;
             rocksText.SetText(importantRocks.Count + "/" + remainingRocks);
             if(remainingRocks <= 0)
                 LevelComplete();
         }
-        void LevelComplete()
+        private void LevelComplete()
         {
             if(MenuManager.instance != null)
             {
