@@ -22,14 +22,14 @@ We claim no rights on the finished project; you are free to include it as part o
 
 
 ## Assets used
-Fighter: https://assetstore.unity.com/packages/3d/vehicles/space/free-sf-fighter-11711#description
-Missile: https://assetstore.unity.com/packages/3d/props/weapons/free-missile-72692
-Asteroids: https://assetstore.unity.com/packages/3d/props/asteroid-pack-by-pixel-make-83951
+Fighter: https://assetstore.unity.com/packages/3d/vehicles/space/free-sf-fighter-11711#description.
+Missile: https://assetstore.unity.com/packages/3d/props/weapons/free-missile-72692.
+Asteroids: https://assetstore.unity.com/packages/3d/props/asteroid-pack-by-pixel-make-83951.
 
 I also used:
-TextMeshPro
-Cinemachine
-Free Skyboxes - Space: https://assetstore.unity.com/packages/2d/textures-materials/sky/free-skyboxes-space-178953
+TextMeshPro.
+Cinemachine.
+Free Skyboxes - Space: https://assetstore.unity.com/packages/2d/textures-materials/sky/free-skyboxes-space-178953.
 
 ## Controls
 W and A to change velocity.
