@@ -29,7 +29,7 @@ Missile: https://assetstore.unity.com/packages/3d/props/weapons/free-missile-726
 Asteroids: https://assetstore.unity.com/packages/3d/props/asteroid-pack-by-pixel-make-83951.
 
 
-I also used:
+# Also used:
 
 TextMeshPro.
 
