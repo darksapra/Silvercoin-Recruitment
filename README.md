@@ -35,6 +35,8 @@ TextMeshPro.
 
 Cinemachine.
 
+PostProcessing.
+
 Free Skyboxes - Space: https://assetstore.unity.com/packages/2d/textures-materials/sky/free-skyboxes-space-178953.
 
 ## Controls
