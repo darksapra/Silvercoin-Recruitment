@@ -1,4 +1,6 @@
-# Silvercoin Recruitment
+# Silvercoin Recruitment Project
+Game made in 8 hours for a recruitment process at Silvercoin Studios
+
 ## Game description
 A simple programming task #1: "A fighter and a missile"
 
